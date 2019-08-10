@@ -1,139 +1,296 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" class="no-js">
 
 <head>
-    <title>Portfolio</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    <script src="script.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Portfolio | Home</title>
+
+    <link rel="stylesheet" href="style.css" media="screen" />
+
+
+    <link href='http://fonts.googleapis.com/css?family=Righteous&subset=latin,latin-ext' rel='stylesheet'
+        type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css'>
+
+    <script src="scripts/modernizr.js"></script>
+
 </head>
 
-
 <body>
-    <nav class="breadcrumb is-right is-large has-dot-separator" aria-label="breadcrumbs">
-        <ul>
-            <li class="is-active"><a href="#" aria-current="page">Index</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="../Bootcamp-Portfolio/assets/Resume.pdf">Resume</a></li>
-        </ul>
-    </nav>
-    <div "columns">
-        <div "column">
+ 
 
-            <section class="section">
-                <div class="container">
-                    <h1 class="title">Shaquima Johnson McSwain</h1>
-                    <h2 class="subtitle">
-                    </h2>
-                </div>
-            </section>
-        </div>
-        <div class="section">
-            <div class="columns">
-                <div class="container">
-                    <div class="tile is-ancestor">
-                        <div class="tile is-parent is-9">
-                            <article class="tile is-child box">
-                                <p class="title">About Me</p>
-                                <p class="subtitle"></p>
-                                <div class="content">
-                                    <p>I am looking to apply my love of problem solving and being hands on, to the world
-                                        of technology to solve business needs.</p>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="tile is-parent ">
-                            <article class="tile is-child box">
-                                <p class="title">Contact Info</p>
-                                <div class="content">
-                                    <a id="githubLink" class="button is-medium">
-                                        <span class="icon">
-                                            <i class="fab fa-github"></i>
-                                        </span>
-                                    </a>
-                                    
-                                    <a id="linkedIn" class="button is-medium">
-                                        <span class="icon">
-                                            <i class="fab fa-linkedin-in"></i>
-                                        </span>
-                                    </a>
-                                    
-                                    <div class="dropdown is-hoverable">
-                                        <div class="dropdown-trigger">
 
-                                            <button class="button is-medium" aria-haspopup="true"
-                                                aria-controls="dropdown-menu4">
+    <a href="#cd-nav" class="cd-nav-trigger">Menu
+        <span class="cd-nav-icon"></span>
 
-                                                <span class="icon"><i class="fas fa-envelope-open-text"></i></span>
+        <svg x="0px" y="0px" width="54px" height="54px" viewBox="0 0 54 54">
+            <circle fill="transparent" stroke="#90D4C5" stroke-width="2" cx="27" cy="27" r="25"
+                stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
+        </svg>
+    </a>
 
-                                            </button>
+    <div id="cd-nav" class="cd-nav">
+        <div class="cd-navigation-wrapper">
+            <div class="cd-half-block">
 
-                                        </div>
 
-                                        <div class="dropdown-menu" id="dropdown-menu4" role="menu">
-                                            <div class="dropdown-content">
-                                                <div class="dropdown-item">
-                                                    <p>shaquima.jm@gmail.com</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                   
-                                    <div class="dropdown is-hoverable">
-                                        <div class="dropdown-trigger">
+                <nav>
+                    <ul class="cd-primary-nav">
+                        <li><a href="index.html" class="selected">Home</a></li>
+                        <li><a href="profile.html">Profile</a></li>
+                        <li><a href="#">Resume</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div><!-- .cd-half-block -->
 
-                                            <button class="button is-medium" aria-haspopup="true"
-                                                aria-controls="dropdown-menu4">
+            <div class="cd-half-block">
+                <address>
+                    <ul class="cd-contact-info">
+                        <li><a href="mailto:shaquima.jm@gmail.com">shaquima.jm@gmail.com</a></li>
+                        <li>612.501.4030</li>
+                    </ul>
+                    <ul class="cd-contact-socials">
+                        <li><a href="#0">Github</a></li>
+                        <li><a href="#0">LinkedIn</a></li>
+                    </ul>
+                </address>
+            </div> <!-- .cd-half-block -->
+        </div> <!-- .cd-navigation-wrapper -->
+    </div> <!-- .cd-nav -->
 
-                                                <span class="icon"><i class="fas fa-phone"></i></span>
+    <div class="site-container">
 
-                                            </button>
+        <header class="site-header cf">
+            <div class="site-title"><a href="index.html">Shaquima Johnson McSwain</a></div>
 
-                                        </div>
+            <div class="cf"></div>
 
-                                        <div class="dropdown-menu" id="dropdown-menu4" role="menu">
-                                            <div class="dropdown-content">
-                                                <div class="dropdown-item">
-                                                    <p>612.501.4030</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                </div>
+            <div class="site-tagline">
+                <p>Full Stack Software Developer with a passion for server-side programming.</p>
             </div>
-        </div>
+
+        </header><!-- / .site-header -->
+
+        <section class="site-content">
+
+
+            <div class="projects-feed cf">
+
+                <!------------Burger--------------->
+
+                <article class="project cf">
+                    <a href="portfolio-item.html" title="Eat-Da-Burger">
+                        <div class="thumb">
+                            <div data-picture data-alt="">
+                                <div data-src="img/portfolio-1.jpg"></div>
+
+                                <!--[if (lt IE 9) & (!IEMobile)]>
+                                <div data-src="img/portfolio-1.jpg"></div>
+                                <![endif]-->
+
+                                <noscript>
+                                    <img src="img/portfolio-1.jpg" alt="" />
+                                </noscript>
+                            </div>
+                        </div>
+
+                        <div class="project-content-container">
+                            <div class="project-content">
+                                <div class="table">
+                                    <div class="table-cell">
+                                        <h2 class="thumbnail-title"> First Full-Stack Application</h2>
+
+                                        <p class="thumbnail-description">Burger Themed Full-Stack Application</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="overlay"></div>
+                    </a>
+                </article>
+                <!--------------Fanpage------------------->
+                <article class="project cf">
+                    <a href="portfolio-item3.html" title="Fanpage">
+                        <div class="thumb">
+                            <div data-picture data-alt="">
+                                <div data-src="img/portfolio-2.jpg"></div>
+
+                                <!--[if (lt IE 9) & (!IEMobile)]>
+                                <div data-src="img/portfolio-2.jpg"></div>
+                                <![endif]-->
+
+                                <noscript>
+                                    <img src="img/portfolio-2.jpg" alt="" />
+                                </noscript>
+                            </div>
+                        </div>
+
+                        <div class="project-content-container">
+                            <div class="project-content">
+                                <div class="table">
+                                    <div class="table-cell">
+                                        <h2 class="thumbnail-title">Fanpage</h2>
+
+                                        <p class="thumbnail-description">Junglepussy Fanpage</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="overlay"></div>
+                    </a>
+                </article>
+                <!------------Bamazon------------------>
+                <article class="project cf">
+                    <a href="portfolio-item2.html" title="Bamazon">
+                        <div class="thumb">
+                            <div data-picture data-alt="">
+                                <div data-src="img/portfolio-3.jpg"></div>
+
+                                <!--[if (lt IE 9) & (!IEMobile)]>
+                                <div data-src="img/portfolio-3.jpg"></div>
+                                <![endif]-->
+
+                                <noscript>
+                                    <img src="img/portfolio-3.jpg" alt="" />
+                                </noscript>
+                            </div>
+                        </div>
+
+                        <div class="project-content-container">
+                            <div class="project-content">
+                                <div class="table">
+                                    <div class="table-cell">
+                                        <h2 class="thumbnail-title">Bamazon</h2>
+
+                                        <p class="thumbnail-description">Amazon-like Storefront Application using mySQL
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="overlay"></div>
+                    </a>
+                </article>
+                <!-------------FriendFinder--------------->
+                <article class="project cf">
+                    <a href="portfolio-item4.html" title="FriendFinder">
+                        <div class="thumb">
+                            <div data-picture data-alt="">
+                                <div data-src="img/portfolio-4.jpg"></div>
+
+                                <!--[if (lt IE 9) & (!IEMobile)]>
+                                <div data-src="img/portfolio-4.jpg"></div>
+                                <![endif]-->
+
+                                <noscript>
+                                    <img src="img/portfolio-4.jpg" alt="" />
+                                </noscript>
+                            </div>
+                        </div>
+
+                        <div class="project-content-container">
+                            <div class="project-content">
+                                <div class="table">
+                                    <div class="table-cell">
+                                        <h2 class="thumbnail-title">FriendFinder</h2>
+
+                                        <p class="thumbnail-description">Compatablility based friend-finding application
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="overlay"></div>
+                    </a>
+                </article>
+                <!----------GifTastic----------->
+                <article class="project cf">
+                    <a href="portfolio-item5.html" title="GifTastic">
+                        <div class="thumb">
+                            <div data-picture data-alt="">
+                                <div data-src="img/portfolio-5.jpg"></div>
+
+                                <!--[if (lt IE 9) & (!IEMobile)]>
+                                <div data-src="img/portfolio-5.jpg"></div>
+                                <![endif]-->
+
+                                <noscript>
+                                    <img src="img/portfolio-5.jpg" alt="" />
+                                </noscript>
+                            </div>
+                        </div>
+
+                        <div class="project-content-container">
+                            <div class="project-content">
+                                <div class="table">
+                                    <div class="table-cell">
+                                        <h2 class="thumbnail-title">GifTastic</h2>
+
+                                        <p class="thumbnail-description">Gif Search Engine</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="overlay"></div>
+                    </a>
+                </article>
+                <!-----------Kobushi------------>
+                <article class="project cf">
+                    <a href="portfolio-item6.html" title="Kobushi">
+                        <div class="thumb">
+                            <div data-picture data-alt="">
+                                <div data-src="img/portfolio-6.jpg"></div>
+                                <noscript>
+                                    <img src="img/portfolio-6.jpg" alt="" />
+                                </noscript>
+                            </div>
+                        </div>
+
+                        <div class="project-content-container">
+                            <div class="project-content">
+                                <div class="table">
+                                    <div class="table-cell">
+                                        <h2 class="thumbnail-title">Kobushi</h2>
+
+                                        <p class="thumbnail-description">Anime Search Engine</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="overlay"></div>
+                    </a>
+                </article>
+                <!--END .projects-feed-->
+            </div>
+
+            <!--END .site-content-->
+        </section>
+
+        <footer class="site-footer cf">
+            <p class="footer-text"> </p>
+            <nav class="languages" role="navigation">
+                <ul></ul>
+            </nav>
+        </footer>
+        <!--END .site-container-->
     </div>
-    </div>
+
+    <script src="scripts/jquery-2.1.4.min.js"></script>
+    <script src="scripts/jquery.fitvids.js"></script>
+    <script src="scripts/jquery.imagesloaded.min.js"></script>
+    <script src="scripts/main.js"></script>
+
 
 </body>
 
 </html>
-<!-- <div class="card">
-    <div class="card-content">
-    <p class="title">
-    “There are two hard things in computer science: cache invalidation, naming things, and off-by-one errors.”
-    </p>
-    <p class="subtitle">
-    Jeff Atwood
-    </p>
-    </div>
-    <footer class="card-footer">
-    <p class="card-footer-item">
-    <span>
-    View on <a href="https://twitter.com/codinghorror/status/506010907021828096">Twitter</a>
-    </span>
-    </p>
-    <p class="card-footer-item">
-    <span>
-    Share on <a href="#">Facebook</a>
-    </span>
-    </p>
-    </footer> -->
